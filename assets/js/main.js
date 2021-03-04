@@ -26,6 +26,7 @@ var i= 0;
 
 // CICLO WHILE PER STAMPARE LA LISTA DEI COGNOMI
 while (i < cognomi.length) {
-  document.getElementById("cognome").innerHTML += '<li>' + cognomi[i]; + '</li>'
+  document.getElementById("cognome").innerHTML += '<li><strong>' + cognomi[i]; +
+  '</strong></li>'
   ++i;
 }
